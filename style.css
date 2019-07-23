@@ -1,0 +1,75 @@
+.contentwrapper {
+    width: 1002px;
+    padding-top: 55px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 32px;
+}
+
+h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 55px;
+    font-weight: bold;
+    text-shadow: 5px 5px 15px white;
+    text-align: center;
+    background-color: rgba(117, 172, 220, 0.591);
+}
+
+.rules {
+color: rgb(111, 5, 72);
+float: right;
+padding-top: 25px;
+}
+
+.randomNum, .totalScore {
+color: rgb(108, 2, 255);
+font-size: 35px;
+}
+
+#random-number, #total-score {
+    text-shadow: 2px 1px 5px purple;
+}
+
+.headings-game {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Amatic SC', cursive;
+    color: rgb(111, 5, 72);
+}
+
+.randomNum, .score {
+    width: 1002px;
+    padding-top: 25px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 32px;
+}
+
+.totalScore {
+    width: 1002px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 32px;
+}
+
+#crystals {
+    text-align: center;
+    border: 2px solid rgb(54, 7, 120);
+    padding: 10px;
+    margin-top: 10px;
+    background-image: url(https://wallpapertag.com/wallpaper/full/5/b/b/175412-large-crystal-background-1920x1080.jpg);
+}
+
+.score {
+    color: rgb(111, 5, 72);
+    font-size: 18px;
+}
+
+#message {
+    width: 1002px;
+    padding-left: 32px;
+    padding-right: 32px;
+    text-align: center;
+    color: rgb(255, 157, 0);
+    font-size: 35px;
+}

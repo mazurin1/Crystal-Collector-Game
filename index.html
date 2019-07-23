@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector Game</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="contentwrapper">
+        <h1>Crystals Collector!</h1>
+
+        <div class="rules">
+            <h2 class="headings-game">Rules</h2>
+            <ol>
+                <li>1. The computer generates a random number</li>
+                <li>2. Match your score to the random number assigned by selecting the crystals below</li>
+                <li>3. Each crystal are assigned different values</li>
+            </ol>
+        </div>
+
+        <div class=randomNum>
+            <h3 class="headings-game">Random Number</h3>
+            <div id="random-number"></div>
+        </div>
+
+        <div id="crystals">
+            <img class="crystal" id="blue-crystal" src="assets/images/bluecrystal.png" width="150" />
+            <img class="crystal" id="pink-crystal" src="assets/images/pinkcrystal.png" width="150" />
+            <img class="crystal" id="purple-crystal" src="assets/images/purplecrystal.png" width="150" />
+            <img class="crystal" id="white-crystal" src="assets/images/whitecrystal.png" width="150" />
+        </div>
+
+        <ul class="score" style=list-style-type:none;>
+            <li class="wins"><span>Wins:</span> <span id="wins"></span></li>
+            <li class="losses"><span>Losses:</span> <span id="losses"></span></li>
+            <h4 id="message"></h4>
+        </ul>
+
+        <div class="totalScore">
+            <h4 class="headings-game">Your total score is:</h4>
+            <div id="total-score"></div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+
+    <script src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
